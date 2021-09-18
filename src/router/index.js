@@ -164,7 +164,18 @@ export const asyncRouterMap = [
         },
         component: Content,
         children: filterTopRouterMap("infoModify")
-      }
+      },
+      // {
+      //   path: "projectManagement/statisticalAnalysis",
+      //   name: "projectManagement/statisticalAnalysis",
+      //   meta: {
+      //     title: "统计",
+      //     icon: "iconinfo",
+      //     routerType: "leftmenu",
+      //   },
+      //   component: Content,
+      //   children: filterTopRouterMap("infoShow")
+      // },
     ]
   },
   {
